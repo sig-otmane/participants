@@ -122,6 +122,11 @@ const featureOverlay = new ol.layer.Vector({
                       attributions: ' ',
                                   url: 'http://server.arcgisonline.com/ArcGIS/rest/services/World_Street_Map/MapServer/tile/{z}/{y}/{x}'
                               })
+                        }),
+						new ol.layer.Tile({
+						title: 'OSM',
+						type:'base',
+						source: new ol.source.OSM()
                         })
 						]
 						});
