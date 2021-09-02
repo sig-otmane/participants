@@ -7,7 +7,7 @@ body{
     background-color: #0f7165;
 }
 .parent{
-    width: auto;
+    width: 650px;
     border-radius: 20px;
     position: relative;
     height: 400px;
